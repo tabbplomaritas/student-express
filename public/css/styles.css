@@ -1,0 +1,54 @@
+form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 2px solid orangered;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+}
+
+form input {
+  background-color: salmon;
+}
+
+input {
+  width: auto;
+  padding: .5rem;
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.button_delete {
+  width: 50px;
+  margin:  10px;
+  background-color: red;
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  padding: .5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+courses {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 2px solid salmon;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: orangered;
+}
